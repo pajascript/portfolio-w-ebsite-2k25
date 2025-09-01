@@ -15,13 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
     cto,
-    tesla,
-    shopify,
+    portfolio,
     carrent,
-    jobit,
-    tripguide,
     threejs,
   } from "../assets";
   
@@ -159,9 +155,9 @@ import {
   
   const projects = [
     {
-      name: "Portfolio Website",
+      name: "Daily Dope Inventory",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to add, track, and manage inventory, providing a convenient and efficient solution for business needs.",
       tags: [
         {
           name: "react",
@@ -177,19 +173,20 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/pajascript/dope-inventory-frontend",
+      link: "https://dailydopeinventory.onrender.com/"
     },
     {
-      name: "Daily Dope Inventory",
+      name: "Portfolio Website",
       description:
-        "Web application that enables users to keep track of their inventory.",
+        "A personal portfolio website showcasing projects, skills, and experience. Built to demonstrate frontend development and design capabilities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
@@ -197,8 +194,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/pajascript/portfolio-w-ebsite-2k25",
+      link: "https://jpfullstack.netlify.app"
     },
   ];
   

@@ -26,8 +26,8 @@ import shopify from "./company/shopify.png";
 import cto from "./company/cto.png";
 import tesla from "./company/tesla.png";
 
+import portfolio from "./portfolio.png";
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -57,6 +57,6 @@ export {
   cto,
   tesla,
   carrent,
-  jobit,
+  portfolio,
   tripguide,
 };
